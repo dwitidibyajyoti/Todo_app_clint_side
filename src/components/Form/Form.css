@@ -1,0 +1,25 @@
+.todo_input {
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+
+  padding-left: 20px;
+  padding-right: 35px;
+  color: black;
+}
+.button_main {
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+  position: relative;
+  color: rgb(40, 139, 143);
+  left: -30px;
+  bottom: -5.3px;
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
