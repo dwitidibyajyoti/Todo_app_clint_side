@@ -6,17 +6,16 @@ const Todo = ({todo, TodoDelete, gatData}) => {
 
   return (
     <>
-      <div key={todo._id} className="todo_list">
+      <div className="todo_list">
         <div className="deleteIconp">
           <div
-            key={todo.date}
             onClick={() => {
               TodoDelete(todo._id);
               setUpdate(false);
             }}
             className="deleteIcon"
           >
-            <i class="fas fa-trash-alt"></i>
+            <i className="fas fa-trash-alt"></i>
           </div>
         </div>
         <div className="todoTask">
@@ -33,7 +32,7 @@ const Todo = ({todo, TodoDelete, gatData}) => {
               }
             }}
           >
-            <i class="far fa-edit"></i>
+            <i className="far fa-edit"></i>
           </div>
         </div>
       </div>

@@ -35,15 +35,14 @@ function App() {
 
   const TodoDelete = async (id) => {
     try {
-      const {data} = await api.delete(`/delete?id=${id}`);
-      // console.log(data);
-      // console.log(id);
+      await api.delete(`/delete?id=${id}`);
+
       gatData();
     } catch (error) {
       console.log(error);
     }
   };
-  console.log(todo);
+
   useEffect(() => {
     gatData();
   }, []);
@@ -56,7 +55,12 @@ function App() {
       <TodoForm newTodo={newTodo} postData={postData} onInput={onInput} />
       {todo &&
         todo.map((todo) => (
-          <TodoList gatData={gatData} TodoDelete={TodoDelete} todo={todo} />
+          <TodoList
+            gatData={gatData}
+            key={todo._id}
+            TodoDelete={TodoDelete}
+            todo={todo}
+          />
         ))}
     </div>
   );

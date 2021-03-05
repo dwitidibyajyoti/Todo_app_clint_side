@@ -27,6 +27,8 @@
   outline: none;
   border: none;
   cursor: pointer;
+  text-shadow: -4px -3px 4px rgba(248, 164, 255, 1),
+    5px 3px 8px rgba(121, 96, 124, 1);
 }
 form {
   min-width: 40%;
