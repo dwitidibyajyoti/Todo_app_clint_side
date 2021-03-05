@@ -25,7 +25,7 @@ function App() {
     e.preventDefault();
     try {
       const {data} = await api.post('/post', {todo: newTodo});
-      console.log(data);
+
       setNewTodo('');
       gatData();
     } catch (error) {

@@ -11,7 +11,6 @@ const Update = ({todo, setUpdate, gatData}) => {
     const data = {id: todo._id, todo: upDateTodo};
     setButtonDown(true);
 
-    console.log(data);
     try {
       const dta = await api.put('/update', data);
       console.log(dta);
