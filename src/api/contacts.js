@@ -1,5 +1,6 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://localhost:8000/',
+  baseURL: 'https://todo-app-dwiti.herokuapp.com/',
 });
+// baseURL: 'http://localhost:8000/'
