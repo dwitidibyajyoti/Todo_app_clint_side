@@ -1,7 +1,7 @@
 .todo_input {
-  height: 30px;
+  height: 40px;
   font-family: 'Montserrat', sans-serif;
-  width: 300px;
+  width: 80%;
   border: none;
   outline: none;
   border-radius: 15px;
@@ -9,17 +9,33 @@
   padding-left: 20px;
   padding-right: 35px;
   color: black;
+  border-radius: 41px;
+  background: #e386fd;
+  box-shadow: 13px 13px 26px #cc79e4, -13px -13px 26px #fa93ff;
+  border-radius: 20px;
 }
 .button_main {
   margin: 0;
   padding: 0;
-  font-size: 28px;
+  font-size: 35px;
   position: relative;
   color: rgb(40, 139, 143);
-  left: -30px;
-  bottom: -5.3px;
+  /* left: -30px;
+  bottom: 0; */
+  left: -40px;
   background: none;
   outline: none;
   border: none;
   cursor: pointer;
+}
+form {
+  min-width: 40%;
+  min-height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e386fd;
+  box-shadow: 13px 13px 26px #cc79e4, -13px -13px 26px #fa93ff;
+  border-radius: 20px;
+  padding: 10px 0px;
 }

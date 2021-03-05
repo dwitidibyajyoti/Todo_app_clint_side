@@ -9,8 +9,22 @@
 
 header {
   font-family: 'Lobster', cursive;
-  color: rgb(39, 104, 121);
+
   letter-spacing: 2px;
-  font-size: 40px;
-  margin: 30px;
+  font-size: 2rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+span {
+  font-size: 5rem;
+  color: #1a596d;
+  text-shadow: -4px -3px 4px rgba(248, 164, 255, 1),
+    5px 3px 8px rgba(121, 96, 124, 1);
+
+  /* text-shadow: -4px -3px 4px rgba(248, 164, 255, 1),
+    5px 1px 8px rgba(121, 96, 124, 1); */
+  /* text-shadow: -4px -3px 5px rgba(248, 164, 255, 1),
+    5px 1px 9px rgba(121, 96, 124, 1); */
+  /* text-shadow: -7px -4px 9px rgba(248, 164, 255, 1),
+    5px 1px 7px rgba(121, 96, 124, 1); */
 }

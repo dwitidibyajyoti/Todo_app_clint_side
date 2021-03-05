@@ -34,11 +34,6 @@ function App() {
   };
 
   const TodoDelete = async (id) => {
-    const ddata = {
-      id: id,
-    };
-    const jsonD = JSON.stringify(ddata);
-    console.log(ddata);
     try {
       const {data} = await api.delete(`/delete?id=${id}`);
       // console.log(data);
@@ -56,11 +51,13 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1> Todo list</h1>
+        <span> Todo list</span>
       </header>
       <TodoForm newTodo={newTodo} postData={postData} onInput={onInput} />
       {todo &&
-        todo.map((todo) => <TodoList TodoDelete={TodoDelete} todo={todo} />)}
+        todo.map((todo) => (
+          <TodoList gatData={gatData} TodoDelete={TodoDelete} todo={todo} />
+        ))}
     </div>
   );
 }

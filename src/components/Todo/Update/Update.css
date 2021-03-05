@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.updateFild {
+  background: red;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-width: 40%;
+  border-radius: 15px;
+  border-radius: 15px;
+  border-radius: 15px;
+  border-radius: 32px;
+  background: #e386fd;
+  box-shadow: 12px 12px 35px #b169c5, -12px -12px 35px #ffa3ff;
+  margin: 10px 0px;
+  border-radius: 32px;
+}
+
+.updateINput,
+.updBtn {
+  margin: 0px 20px;
+  height: 2rem;
+}
+.updBtn {
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background: rgb(15, 138, 86);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  border-radius: 25px;
+  border-radius: 32px;
+  background: #e386fd;
+  box-shadow: 12px 12px 35px #b169c5, -12px -12px 35px #ffa3ff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+.updateINput {
+  outline: none;
+  border: none;
+  padding: 0px 20px;
+  border-radius: 15px;
+  background: #e386fd;
+  box-shadow: 13px 13px 26px #cc79e4, -13px -13px 26px #fa93ff;
+}
+
+/* .updBtn:hover {
+  border-radius: 32px;
+  background: #e386fd;
+  box-shadow: inset 16px 16px 31px #c373da, inset -16px -16px 31px #ff99ff;
+} */
+.buttonDown {
+  border-radius: 32px;
+  background: #e386fd;
+  box-shadow: inset 16px 16px 31px #c373da, inset -16px -16px 31px #ff99ff;
+}

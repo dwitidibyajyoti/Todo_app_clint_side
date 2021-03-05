@@ -2,12 +2,13 @@
 
 .todo_list {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: #7cffcb;
-  background-image: linear-gradient(315deg, #7cffcb 0%, #74f2ce 74%);
+  /* justify-content: space-evenly;
+  align-items: center; */
+  border-radius: 32px;
+  background: #e386fd;
+  box-shadow: 13px 13px 26px #cc79e4, -13px -13px 26px #fa93ff;
 
-  margin: 13px 10px;
+  margin: 25px 10px;
   border-radius: 16px;
   min-width: 40%;
   min-height: 60px;
@@ -15,19 +16,43 @@
 }
 
 .deleteIcon {
-  font-size: 30px;
   color: rgb(212, 48, 37);
   margin: 0px 15px;
   cursor: pointer;
+  border-radius: 32px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #cc79e4, #f38fff);
+  box-shadow: 21px 21px 42px #cc79e4, -21px -21px 42px #fa93ff;
 }
 .updateIcon {
-  font-size: 30px;
   color: rgb(32, 187, 79);
   margin: 0px 15px;
   cursor: pointer;
+  border-radius: 32px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #cc79e4, #f38fff);
+  box-shadow: 21px 21px 42px #cc79e4, -21px -21px 42px #fa93ff;
 }
 
 .todoTask {
   font-family: 'Oswald', sans-serif;
   color: rgb(77, 72, 9);
+  flex: 2;
+  text-align: center;
+}
+.deleteIcon,
+.updateIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+}
+.deleteIconp,
+.updateIconp {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
